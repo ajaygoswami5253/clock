@@ -1,0 +1,56 @@
+
+
+#clockcontainer{
+position: relative;
+height: 40vw;
+width: 40vw;
+background: url(watch.jpg);
+background-size: 100%;
+ 
+margin: auto;
+ opacity: 0.8;
+ 
+
+}
+
+body{
+    background-image: url('pexels-roman-odintsov-6923820.jpg');
+     height: 100vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     
+}
+
+#hour, #minute, #second{
+     position: absolute;
+     background-color: black;
+     border-radius: 10px;
+    opacity: 0.8;
+     width: 1%;
+     transform-origin: bottom;
+}
+
+#hour{
+    height: 13%;
+    top: 38%;
+    left:42.099%;
+     
+}
+#minute{
+height:15% ;
+top:36% ;
+left:42.09%;
+ 
+}
+
+#second{
+height:17%;
+top:34% ;
+left:42.4% ;
+
+}
+.navbar navbar-expand-lg bg-body-tertiary{
+    opacity: 0.1;
+}
